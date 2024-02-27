@@ -51,12 +51,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="th">
-      <body className="bg-custom">
-        <div className="flex flex-col min-h-screen">
-          <Navbar />
-          <main className="container mx-auto p-4">{children}</main>
-          <Footer />
-        </div>
+      <body className="bg-custom sm:flex sm:flex-col sm:min-h-screen">
+        <Navbar />
+        <main className="container mx-auto p-4">{children}</main>
+        <Footer />
       </body>
     </html>
   );

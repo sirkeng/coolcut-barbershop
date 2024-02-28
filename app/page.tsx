@@ -28,6 +28,7 @@ export default function HomePage() {
                 alt="Messenger"
                 width={30}
                 height={34}
+                priority
               />
               <div className="ml-1 ltr:ml-5 rtl:mr-3">
                 <p className="text-sm font-medium text-black group-hover:text-slate-500">

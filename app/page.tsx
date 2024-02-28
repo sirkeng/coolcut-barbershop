@@ -30,7 +30,7 @@ export default function HomePage() {
                 height={34}
               />
               <div className="ml-1 ltr:ml-5 rtl:mr-3">
-                <p className="text-sm font-medium text-black">
+                <p className="text-sm font-medium text-black group-hover:text-slate-500">
                   สอบถามเพิ่มเติม
                 </p>
                 <p className="text-sm font-medium group-hover:text-slate-400">

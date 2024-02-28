@@ -12,12 +12,12 @@ const Navbar: React.FC = () => {
         <Link className="mr-4 md:mr-8 hover:text-gray-200" href="/">
           หน้าแรก
         </Link>
-        <Link className="mr-4 md:mr-8 hover:text-gray-200" href="/about">
+        {/* <Link className="mr-4 md:mr-8 hover:text-gray-200" href="/about">
           เกี่ยวกับเรา
         </Link>
         <Link className="mr-4 md:mr-8 hover:text-gray-200" href="/services">
           บริการของเรา
-        </Link>
+        </Link> */}
         <Link
           className="hover:text-gray-200"
           target="_blank"

@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
         <Link
           className="hover:text-gray-200"
           target="_blank"
-          href="https://maps.app.goo.gl/VjWQQpMc2WTSkXrf7"
+          href="https://goo.gl/maps/7ZWf3r5G5KS1gfAT9"
         >
           ที่ตั้งร้าน
         </Link>

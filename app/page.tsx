@@ -14,30 +14,44 @@ export default function HomePage() {
       </h1>
       <h3 className="text-lg font-light">- open daily -</h3>
       <h2 className="text-3xl font-light tracking-widest">BARBER SHOP</h2>
-      {/* <div className="mt-6">
-        <button className="rounded-lg m-2 p-4 px-10 text-black text-xl border border-lime-900 bg-slate-100/60 font-bold hover:bg-slate-100/80 active:bg-white focus:outline-none">
-          จองคิวตัดผม
-        </button>
-      </div> */}
-      <div className="mt-6">
+      <div className="mt-6 space-y-4">
+        <a href="tel:+66652839965" target="_blank">
+          <button className="rounded-lg m-2 p-4 text-black text-xl border border-lime-900 bg-slate-100/60 font-bold hover:bg-slate-100/80 active:bg-white focus:outline-none flex items-center justify-start w-full md:w-auto">
+            <Image
+              src="/phone-icon.png"
+              alt="Phone"
+              width={34}
+              height={34}
+              priority
+              className="mr-4"
+            />
+            <div className="text-left">
+              <p className="text-sm font-medium text-black group-hover:text-slate-500">
+                โทรจอง
+              </p>
+              <p className="text-sm font-medium group-hover:text-slate-400">
+                065-283-9965
+              </p>
+            </div>
+          </button>
+        </a>
         <a href="https://m.me/barbershopcoolcut" target="_blank">
-          <button className="rounded-lg m-2 p-4 px-10 text-black text-xl border border-lime-900 bg-slate-100/60 font-bold hover:bg-slate-100/80 active:bg-white focus:outline-none">
-            <div className="group flex items-center">
-              <Image
-                src="/facebook-messenger.png"
-                alt="Messenger"
-                width={30}
-                height={34}
-                priority
-              />
-              <div className="ml-1 ltr:ml-5 rtl:mr-3">
-                <p className="text-sm font-medium text-black group-hover:text-slate-500">
-                  สอบถามเพิ่มเติม
-                </p>
-                <p className="text-sm font-medium group-hover:text-slate-400">
-                  Messenger
-                </p>
-              </div>
+          <button className="rounded-lg m-2 p-4 text-black text-xl border border-lime-900 bg-slate-100/60 font-bold hover:bg-slate-100/80 active:bg-white focus:outline-none flex items-center justify-start w-full md:w-auto">
+            <Image
+              src="/facebook-messenger.png"
+              alt="Messenger"
+              width={34}
+              height={34}
+              priority
+              className="mr-4"
+            />
+            <div className="text-left">
+              <p className="text-sm font-medium text-black group-hover:text-slate-500">
+                สอบถามเพิ่มเติม
+              </p>
+              <p className="text-sm font-medium group-hover:text-slate-400">
+                Messenger
+              </p>
             </div>
           </button>
         </a>

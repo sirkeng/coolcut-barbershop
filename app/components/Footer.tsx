@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link
             target="_blank"
-            href="https://www.tiktok.com/@coolcutbarbershop/"
+            href="https://www.tiktok.com/@coolcut.barbershop/"
             className="mx-2 hover:text-gray-200"
           >
             <Image src="/icon-tiktok.png" alt="TikTok" width={24} height={24} />

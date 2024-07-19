@@ -12,13 +12,14 @@ export const metadata: Metadata = {
   title: {
     template: "%s | Cool Cut Barbershop",
     default:
-      "Cool Cut Barbershop - ร้านตัดผมชายที่ดีที่สุดในกรุงเทพ | ตัดผม & ออกแบบทรงผม",
+      "Cool Cut Barbershop - ร้านตัดผมที่ดีที่สุดในกรุงเทพ | ตัดผม & ออกแบบทรงผม",
   },
   description:
     "ร้านตัดผม Cool Cut Barbershop บริการตัดผม, โกนหนวด, และออกแบบทรงผมให้เข้ากับใบหน้าของคุณโดยเฉพาะ.",
   keywords: [
     "ตัดผมชาย",
     "ร้านตัดผมชายใกล้ฉัน",
+    "ร้านตัดผมใกล้ฉัน",
     "ร้านตัดผม",
     "ดูแลเส้นผม",
     "โกนหนวด",
@@ -26,6 +27,9 @@ export const metadata: Metadata = {
     "ร้านตัดผมจรัญ",
     "ร้านตัดผมชาย กรุงเทพ",
     "ตัดผมชาย กรุงเทพ",
+    "ร้านตัดผมทอม",
+    "ร้านตัดผมทรงเฟด",
+    "ร้านตัดผม กรุงเทพ",
     "ตัดผมทรงเฟด กรุงเทพ",
     "ตกแต่งหนวดเครา กรุงเทพ",
     "บริการดูแลผู้ชาย กรุงเทพ",
@@ -43,6 +47,9 @@ export const metadata: Metadata = {
     "men's grooming bangkok",
     "traditional barber bangkok",
     "modern barber bangkok",
+    "ร้านตัดผม คูลคัท",
+    "ร้านตัดผม คูลคัท กรุงเทพ",
+    "ร้านตัดผมชาย Cool cut barbershop",
   ],
   icons: {
     icon: [

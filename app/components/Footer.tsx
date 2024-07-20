@@ -22,41 +22,6 @@ const Footer: React.FC = () => {
           จองตัดผม
         </Link>
       </div> */}
-      <div className="social-media-icons flex justify-center transition duration-300 transform hover:scale-110">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link
-            target="_blank"
-            href="https://www.tiktok.com/@coolcut.barbershop/"
-            className="mx-2 hover:text-gray-200"
-          >
-            <Image src="/icon-tiktok.png" alt="TikTok" width={24} height={24} />
-          </Link>
-          <Link
-            target="_blank"
-            href="https://www.instagram.com/coolcut.barbershop/"
-            className="mx-2 hover:text-gray-200"
-          >
-            <Image
-              src="/icon-instagram.png"
-              alt="Instagram"
-              width={24}
-              height={24}
-            />
-          </Link>
-          <Link
-            target="_blank"
-            href="https://www.facebook.com/barbershopcoolcut/"
-            className="mx-2 hover:text-gray-200"
-          >
-            <Image
-              src="/icon-facebook.png"
-              alt="Facebook"
-              width={24}
-              height={24}
-            />
-          </Link>
-        </div>
-      </div>
     </footer>
   );
 };

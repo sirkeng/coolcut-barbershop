@@ -14,10 +14,14 @@ const Navbar: React.FC = () => {
         </Link>
         {/* <Link className="mr-4 md:mr-8 hover:text-gray-200" href="/about">
           เกี่ยวกับเรา
+        </Link>*/}
+        <Link
+          className="mr-4 md:mr-8 hover:text-gray-200"
+          target="_blank"
+          href="tel:+66652839965"
+        >
+          โทรจอง
         </Link>
-        <Link className="mr-4 md:mr-8 hover:text-gray-200" href="/services">
-          บริการของเรา
-        </Link> */}
         <Link
           className="hover:text-gray-200"
           target="_blank"

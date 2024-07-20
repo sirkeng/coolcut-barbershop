@@ -10,7 +10,7 @@ interface RootLayoutProps {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Cool Cut Barbershop",
+    template: "%s | ร้านตัดผม Cool cut barbershop",
     default:
       "Cool Cut Barbershop - ร้านตัดผมที่ดีที่สุดในกรุงเทพ | ตัดผม & ออกแบบทรงผม",
   },

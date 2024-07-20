@@ -4,32 +4,34 @@
 
 @layer base {
   body {
-    @apply min-h-screen;
+    @apply bg-custom min-h-screen;
   }
 }
 
 @layer utilities {
   .bg-custom {
     @apply relative bg-cover bg-center bg-no-repeat;
-    background-image: url("/bg-coolcut-barbershop-mobile.jpg"); /* for mobile */
+    background-image: url("/bg-coolcut-barbershop-inside-shop.jpg"); /* for mobile */
   }
 
   .bg-custom::before {
     @apply absolute inset-0;
     content: "";
     background: rgba(0, 0, 0, 0.537);
-    /* background: rgba(149, 149, 149, 0.537); */
-    /* background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
     z-index: -1;
   }
 
   @media (min-width: 768px) {
     .bg-custom {
-      background-image: url("/bg-coolcut-barbershop-desktop.jpg"); /* for desktop */
+      background-image: url("/bg-coolcut-barbershop-inside-shop.jpg"); /* for desktop */
     }
 
     .bg-custom::before {
       background: rgba(0, 0, 0, 0.537);
     }
+  }
+
+  .navbar-fixed {
+    @apply fixed top-0 left-0 right-0 bg-emerald-700 text-white shadow-lg z-20;
   }
 }

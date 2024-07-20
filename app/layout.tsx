@@ -65,7 +65,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="th" className="scroll-smooth">
       <body className="bg-custom sm:flex sm:flex-col sm:min-h-screen">
         <Navbar />
-        <main className="container mx-auto p-4">{children}</main>
+        <main className="container mx-auto p-4 pt-20">{children}</main>
         <Footer />
       </body>
     </html>

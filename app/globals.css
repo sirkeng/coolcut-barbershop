@@ -10,7 +10,7 @@
 
 @layer utilities {
   .bg-custom {
-    @apply relative bg-cover bg-center bg-no-repeat;
+    @apply relative bg-cover bg-center bg-no-repeat bg-fixed;
     background-image: url("/bg-coolcut-barbershop-inside-shop.jpg"); /* for mobile */
   }
 

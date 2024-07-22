@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
           target="_blank"
           href="https://goo.gl/maps/7ZWf3r5G5KS1gfAT9"
         >
-          ที่ตั้งร้าน
+          Google Map
         </Link>
         <Link
           className="hover:text-gray-200"

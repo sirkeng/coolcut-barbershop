@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
@@ -13,7 +11,7 @@ const Footer: React.FC = () => {
         >
           สอบถามเพิ่มเติม
         </Link>{" "}
-        |{" "}
+        |{" "}อ
         <Link
           legacyBehavior
           href="link-to-booking"

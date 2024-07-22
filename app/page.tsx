@@ -1,18 +1,11 @@
 import Contact from "./components/Contact";
-import Image from "next/image";
+import Portfolio from "./components/Portfolio";
 
 export default function HomePage() {
   return (
-    <div className="text-center mt-18 mb-12 text-white">
-      <div className="relative mx-auto mb-6">
-        <Image
-          src="/coolcut-barbershop-logo.jpg"
-          alt="Cool Cut Barbershop"
-          width={300}
-          height={300}
-          className="mx-auto"
-        />
-      </div>
+    <div className="text-center mt-0 mb-12 text-white">
+      <div className="relative mx-auto mb-6"></div>
+      <Portfolio />
       <Contact />
     </div>
   );

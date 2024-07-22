@@ -34,4 +34,16 @@
   .navbar-fixed {
     @apply fixed top-0 left-0 right-0 bg-emerald-700 text-white shadow-lg z-20;
   }
+
+  .logo {
+    @apply w-10 h-10 rounded-full; /* ขนาดและความโค้งมนของโลโก้ */
+  }
+
+  .navbar-item {
+    @apply mr-4 md:mr-8 hover:text-gray-200; /* ปรับการจัดวางเมนู */
+  }
+
+  .main-content {
+    @apply mt-10; /* ปรับระยะห่างด้านบนสำหรับเนื้อหาหลัก */
+  }
 }

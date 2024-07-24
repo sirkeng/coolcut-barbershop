@@ -59,4 +59,38 @@
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
       0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
+
+  /* Globals.css */
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #000 !important;
+    top: 50% !important;
+    width: 20px !important; /* Reduced width */
+    height: 30px !important; /* Reduced height */
+    margin-top: -15px !important; /* Adjusted to center the smaller buttons */
+  }
+
+  .swiper-button-prev {
+    left: -20px !important; /* Adjusted to stay within bounds */
+  }
+
+  .swiper-button-next {
+    right: -20px !important; /* Adjusted to stay within bounds */
+  }
+
+  @media (max-width: 767px) {
+    .swiper-button-prev {
+      left: -10px !important; /* Adjusted for mobile view */
+    }
+
+    .swiper-button-next {
+      right: -10px !important; /* Adjusted for mobile view */
+    }
+  }
+
+  /* Add this if you want to adjust the pagination bullets as well */
+  .swiper-pagination-bullet {
+    background: #000 !important; /* Change the color of pagination bullets */
+    opacity: 1 !important; /* Ensure bullets are fully visible */
+  }
 }

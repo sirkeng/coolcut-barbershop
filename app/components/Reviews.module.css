@@ -1,3 +1,4 @@
+/* Reviews.module.css */
 .swiperButtonPrev,
 .swiperButtonNext {
   color: #000 !important;
@@ -5,16 +6,10 @@
   width: 20px !important; /* Smaller width */
   height: 20px !important; /* Smaller height */
   margin-top: -10px !important; /* Adjust to center vertically */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   border-radius: 50%; /* Round buttons */
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.swiperButtonPrev:hover,
-.swiperButtonNext:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
 }
 
 .swiperButtonPrev::after,
@@ -42,4 +37,12 @@
 
 .swiper-pagination {
   bottom: -20px !important; /* Move pagination dots outside */
+}
+
+/* ปรับความสูงของกล่องคอมเม้นต์ให้คงที่ */
+.comment-box {
+  height: 200px; /* ปรับความสูงตามที่ต้องการ */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

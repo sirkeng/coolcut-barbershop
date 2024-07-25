@@ -11,6 +11,17 @@ import styles from "./Reviews.module.css";
 const reviews = [
   {
     id: 1,
+    name: "Mook Ttcy",
+    rating: 5,
+    comment:
+      "ทางร้านตัดดีมากๆค่ะ แนะนำเลยได้ทั้งทรงเฟดเท่ๆและเกาหลีเลย เราตัดทรงคอมม่าได้ตลอดเลย ดรอปคัท ก็ดี ช่างสุภาพมาก เจ้าของร้านก็น่ารัก",
+    profileImg:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXGi_at7DW-ysDiVnMhHv11v8vN-FiSig6HWJSGowFcvO1f8Oda=w72-h72-p-rp-mo-br100",
+    reviewLink: "https://maps.app.goo.gl/B49mQVR3MHjWUNwf6",
+  },
+
+  {
+    id: 2,
     name: "J To The Jin",
     rating: 5,
     comment:
@@ -20,35 +31,7 @@ const reviews = [
     reviewLink: "https://maps.app.goo.gl/eBm9RHXg4HL5Wjbu9",
   },
   {
-    id: 2,
-    name: "netitorn ice",
-    rating: 5,
-    comment: "ตัดดีครับมีการแนะนำให้เราได้เข้าใจทรงผมมากขึ้น เพลินดีครับแนะนำ",
-    profileImg:
-      "https://lh3.googleusercontent.com/a-/ALV-UjUKC3kmZTD94JW9uj_PLN4VIQ840dYz5LBniWi4V9hAeeAsVtGb=w72-h72-p-rp-mo-br100",
-    reviewLink: "https://maps.app.goo.gl/XQpBjWig7wSoZfCSA",
-  },
-  {
     id: 3,
-    name: "Mook Ttcy",
-    rating: 5,
-    comment:
-      "ทางร้านตัดดีมากๆค่ะ แนะนำเลยได้ทั้งทรงเฟดเท่ๆและเกาหลีเลย เราตัดทรงคอมม่าได้ตลอดเลย ดรอปคัท ก็ดี ช่างสุภาพมาก เจ้าของร้านก็น่ารัก",
-    profileImg:
-      "https://lh3.googleusercontent.com/a-/ALV-UjXGi_at7DW-ysDiVnMhHv11v8vN-FiSig6HWJSGowFcvO1f8Oda=w72-h72-p-rp-mo-br100",
-    reviewLink: "https://maps.app.goo.gl/B49mQVR3MHjWUNwf6",
-  },
-  {
-    id: 4,
-    name: "Suwit Noummasing",
-    rating: 5,
-    comment: "ช่างตัดผมดีมาก บริการดีเยี่ยม มาใช้บริการตลอดครับ",
-    profileImg:
-      "https://lh3.googleusercontent.com/a-/ALV-UjXjAFNvsZdsbxihaCMiOpyH7pTx_P11DBWdLLDbgPH9WjJaOkz_=w72-h72-p-rp-mo-br100",
-    reviewLink: "https://maps.app.goo.gl/1eUFsUnNyqPDzzgF6",
-  },
-  {
-    id: 5,
     name: "Siripatsorn K",
     rating: 5,
     comment:
@@ -57,6 +40,26 @@ const reviews = [
       "https://lh3.googleusercontent.com/a-/ALV-UjWCoPv9cxDKm7mrq8vzo1jFXkPwznELWodA4AQ2vxQNmVxk4Oqr=w72-h72-p-rp-mo-br100",
     reviewLink: "https://maps.app.goo.gl/XuHdsoY7EZHDpiAq9",
   },
+  {
+    id: 4,
+    name: "netitorn ice",
+    rating: 5,
+    comment: "ตัดดีครับมีการแนะนำให้เราได้เข้าใจทรงผมมากขึ้น เพลินดีครับแนะนำ",
+    profileImg:
+      "https://lh3.googleusercontent.com/a-/ALV-UjUKC3kmZTD94JW9uj_PLN4VIQ840dYz5LBniWi4V9hAeeAsVtGb=w72-h72-p-rp-mo-br100",
+    reviewLink: "https://maps.app.goo.gl/XQpBjWig7wSoZfCSA",
+  },
+
+  {
+    id: 5,
+    name: "Suwit Noummasing",
+    rating: 5,
+    comment: "ช่างตัดผมดีมาก บริการดีเยี่ยม มาใช้บริการตลอดครับ",
+    profileImg:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXjAFNvsZdsbxihaCMiOpyH7pTx_P11DBWdLLDbgPH9WjJaOkz_=w72-h72-p-rp-mo-br100",
+    reviewLink: "https://maps.app.goo.gl/1eUFsUnNyqPDzzgF6",
+  },
+
   {
     id: 6,
     name: "Threeranat Pimpa",
@@ -99,7 +102,7 @@ const reviews = [
     name: "Looktarn.",
     rating: 5,
     comment:
-      "แนะนำร้านนี้เลยค่ะทุกคน ตัดอย่างสวย เหมือนได้สาใหม่  พนักงานพูดจาดีทุกคนนะคะ  แล้วแนะนำทรงผมให้เข้ากับสไตล์แต่ละคน 🥹🥰",
+      "แนะนำร้านนี้เลยค่ะทุกคน ตัดอย่างสวย เหมือนได้สาใหม่ พนักงานพูดจาดีทุกคนนะคะ  แล้วแนะนำทรงผมให้เข้ากับสไตล์แต่ละคน 🥹🥰",
     profileImg:
       "https://lh3.googleusercontent.com/a-/ALV-UjXzTeaLVSzS10rVzsDeLeozV34w9hBaX1mV8cuLKjNmPV4QpaN1=w72-h72-p-rp-mo-br100",
     reviewLink: "https://maps.app.goo.gl/aH2tRoUF7Q1xTBCR7",
